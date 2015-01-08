@@ -3,14 +3,117 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_ZRk1gJd7EeSiLuSQysrGhQ" name="Scenario_0"/>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_3YHLQJd7EeSiLuSQysrGhQ" name="SiM">
     <region xmi:id="_3YHLQZd7EeSiLuSQysrGhQ" name="Region1">
-      <transition xmi:id="__5L0cJd7EeSiLuSQysrGhQ" name="Transition_Initial1ToState1" source="_574IgJd7EeSiLuSQysrGhQ" target="_9mQIgJd7EeSiLuSQysrGhQ"/>
+      <transition xmi:id="__5L0cJd7EeSiLuSQysrGhQ" name="Transition_Initial1ToState1" guard="_sGHq4JeBEeSiLuSQysrGhQ" source="_574IgJd7EeSiLuSQysrGhQ" target="_9mQIgJd7EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_sGHq4JeBEeSiLuSQysrGhQ" name="Transition_Initial1ToState1_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_sGHq4ZeBEeSiLuSQysrGhQ" name="Transition_Initial1ToState1_guard">
+            <body>Join</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_iyKBoJeAEeSiLuSQysrGhQ" name="Transition_RoomToGame" guard="_q4t5EJeAEeSiLuSQysrGhQ" source="_dcjLsJd8EeSiLuSQysrGhQ" target="_nvwg4Zd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_q4t5EJeAEeSiLuSQysrGhQ" name="Transition_RoomToGame_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_q4t5EZeAEeSiLuSQysrGhQ" name="Transition_RoomToGame_guard">
+            <body>Join</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_j6b4UJeAEeSiLuSQysrGhQ" name="Transition_RoomToGame" guard="_sF6E8JeAEeSiLuSQysrGhQ" source="_dcjLsJd8EeSiLuSQysrGhQ" target="_nvwg4Zd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_sF6E8JeAEeSiLuSQysrGhQ" name="Transition_RoomToGame_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_sF6E8ZeAEeSiLuSQysrGhQ" name="Transition_RoomToGame_guard">
+            <body>Host</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_09ctYJeAEeSiLuSQysrGhQ" name="Transition_RoomToGame" guard="_2BMpYJeAEeSiLuSQysrGhQ" source="_dcjLsJd8EeSiLuSQysrGhQ" target="_nvwg4Zd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_2BMpYJeAEeSiLuSQysrGhQ" name="Transition_RoomToGame_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_2BMpYZeAEeSiLuSQysrGhQ" name="Transition_RoomToGame_guard">
+            <body>Visit</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_Fp18wJeCEeSiLuSQysrGhQ" name="Transition_JoinToFinalState1" guard="_UPfXgJeCEeSiLuSQysrGhQ" source="_9mQIgJd7EeSiLuSQysrGhQ" target="_GEcDgJeBEeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_UPfXgJeCEeSiLuSQysrGhQ" name="Transition_JoinToFinalState1_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_UPfXgZeCEeSiLuSQysrGhQ" name="Transition_JoinToFinalState1_guard">
+            <body>[Duplicate userName</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_ZthtgJeCEeSiLuSQysrGhQ" name="Transition_Initial1ToLogin" source="_574IgJd7EeSiLuSQysrGhQ" target="_EkiwUJd8EeSiLuSQysrGhQ"/>
+      <transition xmi:id="_blUVkJeCEeSiLuSQysrGhQ" name="Transition_LoginToFinalState1" guard="_eDkgsJeCEeSiLuSQysrGhQ" source="_EkiwUJd8EeSiLuSQysrGhQ" target="_GEcDgJeBEeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_eDkgsJeCEeSiLuSQysrGhQ" name="Transition_LoginToFinalState1_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_eDkgsZeCEeSiLuSQysrGhQ" name="Transition_LoginToFinalState1_guard">
+            <body>bad login/pass</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_la8W4JeCEeSiLuSQysrGhQ" name="Transition_GameToFinalState1" guard="_nLmcMJeCEeSiLuSQysrGhQ" source="_nvwg4Zd8EeSiLuSQysrGhQ" target="_GEcDgJeBEeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_nLmcMJeCEeSiLuSQysrGhQ" name="Transition_GameToFinalState1_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_nLmcMZeCEeSiLuSQysrGhQ" name="Transition_GameToFinalState1_guard">
+            <body>Exit</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_pr_8YJeCEeSiLuSQysrGhQ" name="Transition_LoginToLobby" guard="_vqtWgJeCEeSiLuSQysrGhQ" source="_EkiwUJd8EeSiLuSQysrGhQ" target="_aDvc0Jd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_vqtWgJeCEeSiLuSQysrGhQ" name="Transition_LoginToLobby_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_vqtWgZeCEeSiLuSQysrGhQ" name="Transition_LoginToLobby_guard">
+            <body>getLobby</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_zIBK4JeCEeSiLuSQysrGhQ" name="Transition_LobbyToRoom" guard="_22u4UJeCEeSiLuSQysrGhQ" source="_aDvc0Jd8EeSiLuSQysrGhQ" target="_dcjLsJd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_22u4UJeCEeSiLuSQysrGhQ" name="Transition_LobbyToRoom_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_22u4UZeCEeSiLuSQysrGhQ" name="Transition_LobbyToRoom_guard">
+            <body>join Room</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_5qTMIJeCEeSiLuSQysrGhQ" name="Transition_GameToRoom" guard="_8OMFMJeCEeSiLuSQysrGhQ" source="_nvwg4Zd8EeSiLuSQysrGhQ" target="_dcjLsJd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_8OMFMJeCEeSiLuSQysrGhQ" name="Transition_GameToRoom_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_8OMFMZeCEeSiLuSQysrGhQ" name="Transition_GameToRoom_guard">
+            <body>End Round</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="__Q8rkJeCEeSiLuSQysrGhQ" name="Transition_RoomToLobby" guard="_Aha08JeDEeSiLuSQysrGhQ" source="_dcjLsJd8EeSiLuSQysrGhQ" target="_aDvc0Jd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_Aha08JeDEeSiLuSQysrGhQ" name="Transition_RoomToLobby_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_Aha08ZeDEeSiLuSQysrGhQ" name="Transition_RoomToLobby_guard">
+            <body>exit Room</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_EQ_eAJeDEeSiLuSQysrGhQ" name="Transition_LobbyToFinalState1" guard="_ICLQoJeDEeSiLuSQysrGhQ" source="_aDvc0Jd8EeSiLuSQysrGhQ" target="_GEcDgJeBEeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_ICLQoJeDEeSiLuSQysrGhQ" name="Transition_LobbyToFinalState1_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_ICLQoZeDEeSiLuSQysrGhQ" name="Transition_LobbyToFinalState1_guard">
+            <body>Exit</body>
+          </specification>
+        </ownedRule>
+      </transition>
+      <transition xmi:id="_QLBfsJeGEeSiLuSQysrGhQ" name="Transition_Initial1ToGame" guard="_Sm5FMJeGEeSiLuSQysrGhQ" source="_574IgJd7EeSiLuSQysrGhQ" target="_nvwg4Zd8EeSiLuSQysrGhQ">
+        <ownedRule xmi:id="_Sm5FMJeGEeSiLuSQysrGhQ" name="Transition_Initial1ToGame_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_Sm5FMZeGEeSiLuSQysrGhQ" name="Transition_Initial1ToGame_guard">
+            <body>Reconnect</body>
+          </specification>
+        </ownedRule>
+      </transition>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_574IgJd7EeSiLuSQysrGhQ" name="Initial1"/>
-      <subvertex xmi:type="uml:State" xmi:id="_9mQIgJd7EeSiLuSQysrGhQ" name="Join"/>
+      <subvertex xmi:type="uml:State" xmi:id="_9mQIgJd7EeSiLuSQysrGhQ" name="Join">
+        <entry xmi:type="uml:Activity" xmi:id="_9BV14JeBEeSiLuSQysrGhQ" name="joinServer"/>
+      </subvertex>
       <subvertex xmi:type="uml:State" xmi:id="_EkiwUJd8EeSiLuSQysrGhQ" name="Login"/>
       <subvertex xmi:type="uml:State" xmi:id="_aDvc0Jd8EeSiLuSQysrGhQ" name="Lobby"/>
       <subvertex xmi:type="uml:State" xmi:id="_dcjLsJd8EeSiLuSQysrGhQ" name="Room"/>
       <subvertex xmi:type="uml:State" xmi:id="_nvwg4Zd8EeSiLuSQysrGhQ" name="Game" submachine="_nvwg4Jd8EeSiLuSQysrGhQ"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_GEcDgJeBEeSiLuSQysrGhQ" name="FinalState1"/>
     </region>
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_nvwg4Jd8EeSiLuSQysrGhQ" name="StateMachine2" submachineState="_nvwg4Zd8EeSiLuSQysrGhQ"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_wJS6gJeDEeSiLuSQysrGhQ" name="NewModel">
+    <ownedAttribute xmi:id="_mja6gJeFEeSiLuSQysrGhQ" name="Player" type="_OyATwJeFEeSiLuSQysrGhQ"/>
+    <ownedAttribute xmi:id="_uQq6EJeFEeSiLuSQysrGhQ" name="Class1" type="_uQOOIJeFEeSiLuSQysrGhQ"/>
+    <lifeline xmi:id="_mja6gZeFEeSiLuSQysrGhQ" name="Player" represents="_mja6gJeFEeSiLuSQysrGhQ"/>
+    <lifeline xmi:id="_uQOOIZeFEeSiLuSQysrGhQ" name="Class1" represents="_uQq6EJeFEeSiLuSQysrGhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OyATwJeFEeSiLuSQysrGhQ" name="Player"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_aPlxYJeFEeSiLuSQysrGhQ" name="NewModel Subject"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uQOOIJeFEeSiLuSQysrGhQ" name="Class1"/>
 </uml:Model>
