@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2S328Jd6EeSiLuSQysrGhQ" name="NewModel">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_ZRk1gJd7EeSiLuSQysrGhQ" name="Scenario_0"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_3YHLQJd7EeSiLuSQysrGhQ" name="SiM">
+    <region xmi:id="_3YHLQZd7EeSiLuSQysrGhQ" name="Region1">
+      <transition xmi:id="__5L0cJd7EeSiLuSQysrGhQ" name="Transition_Initial1ToState1" source="_574IgJd7EeSiLuSQysrGhQ" target="_9mQIgJd7EeSiLuSQysrGhQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_574IgJd7EeSiLuSQysrGhQ" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_9mQIgJd7EeSiLuSQysrGhQ" name="Join"/>
+      <subvertex xmi:type="uml:State" xmi:id="_EkiwUJd8EeSiLuSQysrGhQ" name="Login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_aDvc0Jd8EeSiLuSQysrGhQ" name="Lobby"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dcjLsJd8EeSiLuSQysrGhQ" name="Room"/>
+      <subvertex xmi:type="uml:State" xmi:id="_nvwg4Zd8EeSiLuSQysrGhQ" name="Game" submachine="_nvwg4Jd8EeSiLuSQysrGhQ"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_nvwg4Jd8EeSiLuSQysrGhQ" name="StateMachine2" submachineState="_nvwg4Zd8EeSiLuSQysrGhQ"/>
+</uml:Model>
