@@ -1,0 +1,70 @@
+!SESSION 2015-01-08 21:00:12.499 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data E:\carles\jocs\Lobby -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2015-01-08 21:00:20.421
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-08 21:00:20.421
+!MESSAGE A conflict occurred for ALT+CTRL+SHIFT+F:
+Binding(ALT+CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.sirius.diagram.ui.find.binding.FindElementAction,Find Element,
+		Find in model,
+		Category(org.eclipse.sirius.common.ui.category,Sirius,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ec508e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.tasktop.internal.web.browser.search,Search,
+		,
+		Category(com.tasktop.internal.web.search.commands,Web Search,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26d8908e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.tasktop.client.auth 2 0 2015-01-08 21:00:34.109
+!MESSAGE Reading license failed.
+!SUBENTRY 1 com.tasktop.client.auth 2 0 2015-01-08 21:00:34.109
+!MESSAGE Could not find or access license at C:\Users\c_a_r_000\AppData\Roaming\Tasktop.
+!SUBENTRY 1 com.tasktop.client.auth 2 0 2015-01-08 21:00:34.109
+!MESSAGE Could not find or access license anywhere.
+!SESSION 2015-01-08 21:03:09.890 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data E:\carles\jocs\Lobby -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2015-01-08 21:03:17.031
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-08 21:03:17.031
+!MESSAGE A conflict occurred for ALT+CTRL+SHIFT+F:
+Binding(ALT+CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.sirius.diagram.ui.find.binding.FindElementAction,Find Element,
+		Find in model,
+		Category(org.eclipse.sirius.common.ui.category,Sirius,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f36f34d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.tasktop.internal.web.browser.search,Search,
+		,
+		Category(com.tasktop.internal.web.search.commands,Web Search,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72e36677,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.tasktop.client.auth 2 0 2015-01-08 21:03:24.687
+!MESSAGE Reading license failed.
+!SUBENTRY 1 com.tasktop.client.auth 2 0 2015-01-08 21:03:24.687
+!MESSAGE Could not find or access license at C:\Users\c_a_r_000\AppData\Roaming\Tasktop.
+!SUBENTRY 1 com.tasktop.client.auth 2 0 2015-01-08 21:03:24.687
+!MESSAGE Could not find or access license anywhere.
