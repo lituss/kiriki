@@ -9,4 +9,11 @@
 	<natures>
 		<nature>org.eclipse.sirius.nature.modelingproject</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>GameScreens.ep</name>
+			<type>1</type>
+			<location>C:/Users/c_a_r_000/git/kiriki/Lobby/GameScreens.ep</location>
+		</link>
+	</linkedResources>
 </projectDescription>
